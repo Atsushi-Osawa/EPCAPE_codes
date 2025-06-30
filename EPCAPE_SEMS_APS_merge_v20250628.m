@@ -69,7 +69,7 @@ clear all; close all; clc
 % data folder
 data    = '/Users/atsushiosawa/EPCAPE_Files/Data_Soledad'; %file name for the user
 % output folder
-out_dir = '/Users/atsushiosawa/EPCAPE_Files/output';  %file name for the user
+out_dir = '/Users/atsushiosawa/EPCAPE_Files/output/';  %file name for the user
 
 % identifies files 
 SEMS_files = dir(fullfile(strcat(data,'/SEMS_data_out/'),'EPCAPE*.nc'));
